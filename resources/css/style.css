@@ -6,6 +6,11 @@ body{
   font-size: 16px;
 }
 
+.container-fluid{
+  padding: 0;
+  margin: 0;
+}
+
 h1{
   font-family: Righteous;
   font-size: 3.5rem;
@@ -20,10 +25,11 @@ header{
 }
 
 
-.row{
+.header{
   align-items: center;
   margin-right: -15px;
   margin-left: 15px;
+  padding: 30px 0;
 }
 
 input{
@@ -39,4 +45,23 @@ i{
   padding: 5px 1px;
   text-align: center;
   margin-left: 10px;
+}
+
+.categories{
+  background-color: rgb(104, 0, 255);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+
+}
+
+#song-list{
+  width: 100%;
+  text-align: left;
+  background-color: white;
+  color: rgb(74, 74, 74);
+  font-size: 1rem;
+  font-family: 'Work Sans';
+  padding: 0.5rem;
 }
