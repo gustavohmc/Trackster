@@ -9,6 +9,7 @@ body{
 .container-fluid{
   padding: 0;
   margin: 0;
+  justify-content: flex-start;
 }
 
 h1{
@@ -16,7 +17,7 @@ h1{
   font-size: 3.5rem;
   color: rgb(255, 0, 171);
   padding: 0 15px;
-  margin: 0 15px;
+  margin: 0  0 0 90px;
 }
 
 header{
@@ -47,6 +48,10 @@ i{
   margin-left: 10px;
 }
 
+.fa-play-circle-o{
+  background-color: white;
+}
+
 .categories{
   background-color: rgb(104, 0, 255);
   color: rgb(255, 255, 255);
@@ -58,10 +63,29 @@ i{
 
 #song-list{
   width: 100%;
-  text-align: left;
+  text-align: center;
   background-color: white;
   color: rgb(74, 74, 74);
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: 'Work Sans';
   padding: 0.5rem;
+}
+
+.song-row{
+  border-bottom: 1px solid lightgrey;
+  margin: 0;
+  padding: 0;
+}
+
+.song-row img{
+  margin: 5px 0 7px 0;
+}
+
+.song-text{
+  margin-top: 2.5rem;
+}
+
+.play-button{
+  margin-left: 2rem;
+  margin-top: 1.8rem;
 }
